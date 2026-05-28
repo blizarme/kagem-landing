@@ -20,7 +20,7 @@
 <meta name="twitter:description" content="Diseñar sonrisas con criterio. Miraflores, Lima." />
 <meta name="twitter:image" content="assets/founder-katherine.jpg" />
 
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231A1A1A'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-weight='500' font-size='22' fill='%23C9A961'%3EK%3C/text%3E%3C/svg%3E" />
+<link rel="icon" type="image/png" href="assets/favicon-kagem.png" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -135,9 +135,11 @@
     display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 32px;
   }
   .brand {
+    display: inline-flex; align-items: center; gap: 11px;
     font-family: "Cormorant Garamond"; font-style: italic; font-weight: 500;
     font-size: 32px; line-height: 1; letter-spacing: -0.018em;
   }
+  .brand-mark { height: 38px; width: auto; display: block; flex-shrink: 0; }
   .brand .dot { color: var(--dorado); }
   .nav-links { display: flex; gap: 32px; justify-content: center; }
   .nav-links a {
@@ -553,6 +555,7 @@
     padding-bottom: 48px;
   }
   .foot-brand .brand { font-size: 40px; }
+  .foot-brand .brand-mark { height: 46px; }
   .foot-brand p {
     font-family: "Inter"; font-size: 13px; color: var(--tinta-soft);
     margin-top: 16px; max-width: 36ch; line-height: 1.55;
@@ -642,7 +645,7 @@
 <!-- =================================================================== -->
 <header class="nav">
   <div class="nav-inner">
-    <a href="#" class="brand" aria-label="Kagem · inicio">Kagem<span class="dot">.</span></a>
+    <a href="#" class="brand" aria-label="Kagem · inicio"><img src="assets/logo-kagem.png" alt="" class="brand-mark" width="23" height="38" /><span class="brand-text">Kagem<span class="dot">.</span></span></a>
     <nav class="nav-links" aria-label="Principal">
       <a href="#servicios">Servicios</a>
       <a href="#proceso">Proceso</a>
@@ -1018,7 +1021,7 @@
   <div class="foot-inner">
     <div class="foot-top">
       <div class="foot-brand">
-        <a href="#" class="brand" aria-label="Kagem">Kagem<span class="dot">.</span></a>
+        <a href="#" class="brand" aria-label="Kagem"><img src="assets/logo-kagem.png" alt="" class="brand-mark" width="28" height="46" /><span class="brand-text">Kagem<span class="dot">.</span></span></a>
         <p>Odontología considerada en Miraflores. Cinco especialidades, una sola conversación. Diseñar sonrisas con criterio.</p>
       </div>
       <div class="foot-col">
