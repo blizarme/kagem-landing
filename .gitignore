@@ -1,0 +1,7 @@
+# Documentos internos — nunca desplegar al sitio público
+asistente-kagem.md
+
+# Basura del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
